@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- defer loads html before any js -->
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Calculator</h1>
+    </div>
+
+    <div class="main-container">
+<div class="calculator-body">
+    <div class="calculator-display">
+        <!-- <p>TEST</p> -->
+    </div>
+    <!-- list buttons from left to right -->
+    <div class="calculator-buttons">
+        <div class="calculator-buttons-left">
+            <div class="misc-button" id="clear-button">AC</div>
+            <div class="misc-button" id="plus-minus">+/-</div>
+            <div class="misc-button" id="percentage">%</div>
+            <div class="number-button">1</div>
+            <div class="number-button">2</div>
+            <div class="number-button">3</div>
+            <div class="number-button">4</div>
+            <div class="number-button">5</div>
+            <div class="number-button">6</div>
+            <div class="number-button">7</div>
+            <div class="number-button">8</div>
+            <div class="number-button">9</div>
+
+            <div class="number-button zero-button">0</div>
+            <!-- ALLOW DOT INPUT SOMEHOW!CONCATENATION -->
+            <div class="number-button" id="dot">.</div>
+        </div>
+        <div class="calculator-buttons-right">
+            <div class="function-button" id="divide">&divide;</div>
+            <div class="function-button" id="multiply">&times;</div>
+            <div class="function-button" id="subtract">&minus;</div>
+            <div class="function-button" id="add">&plus;</div>
+            <div class="function-button" id="equals">=</div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div>
+    </div>    
+            
+    <div class="footer">
+        <!-- Credit to https://github.com/michalosman for footer year setup  -->
+        <p>
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+
+            <a href="https://github.com/Elegant-Geek" target="_blank"><strong>Elegant-Geek</strong></a>
+        </p> 
+        <div class="social-media-container">
+            <a href="https://www.facebook.com/American1diot/"><img height="35" src="./images/facebook-app.png"/></a>
+                <a href="https://www.instagram.com/heychickenhead/"><img height="35" src="./images/ig-instagram.png"/></a>
+                <a href="https://www.linkedin.com/in/clark-jamie/"><img height="35" src="./images/linkedin-app.png"/></a>
+                <a href="https://github.com/Elegant-Geek"><img height="35" src="./images/gh.png"/></a>
+        </div>
+    </div>
+</body>
+</html>
